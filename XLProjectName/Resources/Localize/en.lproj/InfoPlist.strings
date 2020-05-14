@@ -1,0 +1,5 @@
+"NSCameraUsageDescription" = "Используется для получения фотографий";
+"NSPhotoLibraryUsageDescription" = "Используется для получения фотографий";
+"NSLocationWhenInUseUsageDescription" = "Используется, когда нужно рассчитать расстояние до местоположения";
+"NSMicrophoneUsageDescription" = "Используется при съемке видео";
+"CFBundleDisplayName" = "AlphaNeurobics";

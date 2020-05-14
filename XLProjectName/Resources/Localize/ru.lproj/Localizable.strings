@@ -1,0 +1,15 @@
+//API ERRORS
+"api_errors.identifire.wrong_credentials" = "Email или пароль введены неверно";
+"api_errors.identifire.user_not_verified" = "Пользователь не верефицирован";
+"api_errors.identifire.user_was_blocked" = "Ваш аккаунт заблокирован, обратитесь в тех.поддержку";
+"api_errors.identifire.user_alredy_exists" = "Пользователь с данным email уже существует";
+"api_errors.identifire.email_has_not_changed" = "Email не изменен";
+"api_errors.identifire.wrong_password" = "Неверный пароль";
+"api_errors.identifire.user_not_found" = "Такого пользователя не существует";
+"api_errors.code.not_found" = "404 Сервер не найден";
+"api_errors.code.unauthorized" = "Не авторизован";
+"api_errors.code.user_was_blocked" = "Ваш аккаунт заблокирован, обратитесь в тех.поддержку";
+"api_errors.code.server_is_not_available" = "Сервер временно недоступен";
+"api_errors.code.too_many_requests" = "Привышено число запросов к серверу";
+"api_errors.no_internet" = "Отсутствует интернет-соединение";
+"api_errors.code.unprocessable_entity" = "Контент больше не существует";
