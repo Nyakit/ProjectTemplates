@@ -20,7 +20,6 @@
 		595132D9246C02A3008D7710 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 595132D8246C02A3008D7710 /* IQKeyboardManagerSwift */; };
 		595132E7246C0605008D7710 /* IGListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595132E6246C0605008D7710 /* IGListKit.framework */; };
 		596E2923246C20AF00F9B3E7 /* DITranquillity in Frameworks */ = {isa = PBXBuildFile; productRef = 596E2922246C20AF00F9B3E7 /* DITranquillity */; };
-		596E2937246C2A4F00F9B3E7 /* ActiveLabel in Frameworks */ = {isa = PBXBuildFile; productRef = 596E2936246C2A4F00F9B3E7 /* ActiveLabel */; };
 		5999B5C3239516120022BE91 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999B541239516110022BE91 /* UIImageViewExtension.swift */; };
 		5999B5C4239516120022BE91 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999B542239516110022BE91 /* NSObjectExtension.swift */; };
 		5999B5C5239516120022BE91 /* UICollectionViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999B543239516110022BE91 /* UICollectionViewCellExtension.swift */; };
@@ -76,7 +75,6 @@
 		5999B613239516120022BE91 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999B5C0239516110022BE91 /* AppFont.swift */; };
 		5999B615239516120022BE91 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5999B5C2239516110022BE91 /* Configuration.swift */; };
 		59C908B5246C3145004D4BD2 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 59C908B4246C3145004D4BD2 /* RxCocoa */; };
-		59C908B8246C31BF004D4BD2 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 59C908B7246C31BF004D4BD2 /* KeychainAccess */; };
 		59C908C7246C3853004D4BD2 /* ClearableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C908BD246C3853004D4BD2 /* ClearableManager.swift */; };
 		59C908C8246C3853004D4BD2 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C908C0246C3853004D4BD2 /* ErrorHandling.swift */; };
 		59C908C9246C3853004D4BD2 /* MoyaPluginFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C908C1246C3853004D4BD2 /* MoyaPluginFactory.swift */; };
@@ -216,8 +214,6 @@
 				2802F26F220DD7F0002C5505 /* UserNotifications.framework in Frameworks */,
 				595132CB246C0113008D7710 /* ReactiveMoya in Frameworks */,
 				595132D9246C02A3008D7710 /* IQKeyboardManagerSwift in Frameworks */,
-				59C908B8246C31BF004D4BD2 /* KeychainAccess in Frameworks */,
-				596E2937246C2A4F00F9B3E7 /* ActiveLabel in Frameworks */,
 				59C908B5246C3145004D4BD2 /* RxCocoa in Frameworks */,
 				596E2923246C20AF00F9B3E7 /* DITranquillity in Frameworks */,
 				595132D6246C01F9008D7710 /* Localize_Swift in Frameworks */,
@@ -642,7 +638,7 @@
 		59C908CC246C38C4004D4BD2 /* RepoList */ = {
 			isa = PBXGroup;
 			children = (
-				59C908CD246C38C4004D4BD2 /* cells */,
+				59C908CD246C38C4004D4BD2 /* Сells */,
 				59C908D2246C38C4004D4BD2 /* MRRepoListContracts.swift */,
 				59C908D3246C38C4004D4BD2 /* MRRepoListPresenter.swift */,
 				59C908D4246C38C4004D4BD2 /* MRRepoListRouter.swift */,
@@ -653,12 +649,12 @@
 			path = RepoList;
 			sourceTree = "<group>";
 		};
-		59C908CD246C38C4004D4BD2 /* cells */ = {
+		59C908CD246C38C4004D4BD2 /* Сells */ = {
 			isa = PBXGroup;
 			children = (
 				59C908CE246C38C4004D4BD2 /* RepoCell */,
 			);
-			path = cells;
+			path = "Сells";
 			sourceTree = "<group>";
 		};
 		59C908CE246C38C4004D4BD2 /* RepoCell */ = {
@@ -740,9 +736,7 @@
 				595132D5246C01F9008D7710 /* Localize_Swift */,
 				595132D8246C02A3008D7710 /* IQKeyboardManagerSwift */,
 				596E2922246C20AF00F9B3E7 /* DITranquillity */,
-				596E2936246C2A4F00F9B3E7 /* ActiveLabel */,
 				59C908B4246C3145004D4BD2 /* RxCocoa */,
-				59C908B7246C31BF004D4BD2 /* KeychainAccess */,
 			);
 			productName = XLProjectName;
 			productReference = 2867E8271C74C7D400FCEBBD /* XLProjectName.app */;
@@ -784,8 +778,6 @@
 				596E2921246C20AF00F9B3E7 /* XCRemoteSwiftPackageReference "DITranquillity" */,
 				596E292B246C247500F9B3E7 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				596E292E246C24E400F9B3E7 /* XCRemoteSwiftPackageReference "RxSwift" */,
-				596E2935246C2A4F00F9B3E7 /* XCRemoteSwiftPackageReference "ActiveLabel" */,
-				59C908B6246C31BF004D4BD2 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 			);
 			productRefGroup = 2867E8281C74C7D400FCEBBD /* Products */;
 			projectDirPath = "";
@@ -1226,22 +1218,6 @@
 				minimumVersion = 5.1.1;
 			};
 		};
-		596E2935246C2A4F00F9B3E7 /* XCRemoteSwiftPackageReference "ActiveLabel" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/optonaut/ActiveLabel.swift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.0;
-			};
-		};
-		59C908B6246C31BF004D4BD2 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.2.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1285,20 +1261,10 @@
 			package = 596E2921246C20AF00F9B3E7 /* XCRemoteSwiftPackageReference "DITranquillity" */;
 			productName = DITranquillity;
 		};
-		596E2936246C2A4F00F9B3E7 /* ActiveLabel */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 596E2935246C2A4F00F9B3E7 /* XCRemoteSwiftPackageReference "ActiveLabel" */;
-			productName = ActiveLabel;
-		};
 		59C908B4246C3145004D4BD2 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 596E292E246C24E400F9B3E7 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
-		};
-		59C908B7246C31BF004D4BD2 /* KeychainAccess */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 59C908B6246C31BF004D4BD2 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
-			productName = KeychainAccess;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

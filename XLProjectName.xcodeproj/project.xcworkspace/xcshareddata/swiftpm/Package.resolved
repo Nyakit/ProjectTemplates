@@ -2,15 +2,6 @@
   "object": {
     "pins": [
       {
-        "package": "ActiveLabel",
-        "repositoryURL": "https://github.com/optonaut/ActiveLabel.swift",
-        "state": {
-          "branch": null,
-          "revision": "dacc4cfbcdf511424985ce8a1a9260345bd8f2d5",
-          "version": "1.1.0"
-        }
-      },
-      {
         "package": "Alamofire",
         "repositoryURL": "https://github.com/Alamofire/Alamofire",
         "state": {
@@ -35,15 +26,6 @@
           "branch": null,
           "revision": "b0f0a127cca6bb39378447baa2afff74123abd09",
           "version": "6.5.5"
-        }
-      },
-      {
-        "package": "KeychainAccess",
-        "repositoryURL": "https://github.com/kishikawakatsumi/KeychainAccess",
-        "state": {
-          "branch": null,
-          "revision": "3d0ea2c0806791abcc5d7f0d9f62f1cfd4a7264d",
-          "version": "4.2.0"
         }
       },
       {
